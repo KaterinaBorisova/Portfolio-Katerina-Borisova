@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,&dispay=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="cssPortfolio/portfolio.css">
+    <title>Portfolio Katerina Borisova</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header" id="section-one">
+            <div class="container" >
+                <div class="header__body" >
+                    <a href="#" class="header__logo">
+                        <img src="image/icon.png" alt="logo">
+                    </a>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li>
+                                <a href="index.html" class="header__link">ГЛАВНАЯ</a>
+                            </li>
+                            <li>
+                                <a href="#" data-goto=".page__skills" class="header__link">SKILLS & TOOLS</a>
+                            </li>
+                            <li>
+                                <a href="#" data-goto=".page__about" class="header__link">ОБО МНЕ</a>
+                            </li>
+                            <li>
+                                <a href="#" data-goto=".page__projectes" class="header__link">МОИ ПРОЕКТЫ</a>
+                            </li>
+                            <li>
+                                <a href="#" data-goto=".page__contact" class="header__link">КОНТАКТЫ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+        <main class="page">
+            <div class="page__main-block main-block " >
+                <div class="main-block__container container" >
+                    <div class="main-block__body" >
+                        <h1 class="main-block__titel">Всем добрый день!</h1>
+                        <div class="main-block__text">Меня зовут <span>Катерина</span>, я <span>Web-разработчик</span> </div>
+                        <div class="main-block__buttons">
+                            <a href="#section-five"  class="main-block__button">Контакты</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-block__image ibg">
+                    <img src="image/cover.jpg" alt="cover">
+                </div>
+            </div>  
+            
+            <!-------Modal------>
+            <section class="page__certificates certificates" id="myModal" class="modal">
+                <div class="certificates__container container" class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="certificates__header header-block ">
+                        <h2 class="header-block__title">Сертификаты</h2>
+                    </div>
+                    <div class="certificates__body">
+                        <div class="certificates__images image-htmlcss">
+                            <img src="certificates/Certif.JavaScript.png" alt="certificate html/css">
+                        </div>
+                        <div class="certificates__images image-javascript">
+                            <img src="certificates/Certif.Html-Css.png" alt="certificate javascript">
+                        </div>
+                        <div class="certificates__images image-bootstrap">
+                            <img src="certificates/Certif.Bootstrap.png" alt="certificate bootstrap">
+                        </div>
+                        <div class="certificates__images image-gsap-figma">
+                            <img src="certificates/Certif.Gsap-Figma.png" alt="certificate Gsap-Figma">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="page__about aboutmy">
+                <div class="aboutmy__container container">
+                    <div class="aboutmy__header header-block" class="section-foor">
+                        <h2 class="header-block__title">Обо мне </h2>
+                        <div class="header-block__sub-title">
+                            Давайте немного познакомимся<br>
+                            Некоторые факты обо мне
+                        </div>
+                    </div>
+                    <div class="aboutmy__body">
+                        <div class="aboutmy__photo">
+                            <img src="image/MyPhoto.jpg" width="350px" alt="моё фото">
+                        </div>
+                        <div class="aboutmy__content">
+                            <h2 class="aboutmy__titel">Привет,меня зовут Катерина</h2>
+                            <div class="aboutmy__text">Я начинающий web -разработчик с опытом 1 год. <br>
+                            Прошла обучение в канадской школе программирования <a href="https://edu-canshecode.thinkific.com/" target="_blanck" alt="Canadian IT school">CanSheCode.</a><br>
+                            За это время было выполнено более 20 практических работ <br>
+                            По завершении каждого курса получила <a href="#" id="myCertificats"><span>сертификат</span> .</a><br>
+                            В настоящий момент изучаю React/Node <br>
+                            и продолжаю совершенствоваться в полученых навыках.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__skills skills">
+                <div class="slills__container container">
+                    <div class="skills__header header-block" class="section-two">
+                        <h2 class="header-block__title">Навыки и инструменты</h2>
+                        <div class="header-block__sub-title">
+                            Навыки и инструменты которыми я пользуюсь и продолжаю изучать
+                        </div>
+                    </div>
+
+                    <div class="skills__body">
+                        <div class="skills__colum">
+                            <div class="skills__item">
+                                <div class="skills__icon">
+                                    <img class="skills__icon-image" src="image/html5_icon.png" alt="html icon">
+                                </div>
+                                <div class="skills__text">HTML 5</div>
+                            </div>
+                        </div>
+
+                        <div class="skills__colum">
+                            <div class="skills__item">
+                                <div class="skills__icon">
+                                    <img class="skills__icon-image" src="image/css3_icon.png" alt="css icon">
+                                </div>
+                                <div class="skills__text">CSS 3</div>
+                            </div>
+                        </div>
+
+                        <div class="skills__colum">
+                            <div class="skills__item">
+                                <div class="skills__icon">
+                                    <img class="skills__icon-image" src="image/js_square_icon.png" alt=" js icon">
+                                </div>
+                                <div class="skills__text">JAVASCRIPT</div>
+                            </div>
+                        </div>
+
+                        <div class="skills__colum">
+                            <div class="skills__item">
+                                <div class="skills__icon">
+                                    <img class="skills__icon-image" src="image/react native_react_icon.png" alt="react icon">
+                                </div>
+                                <div class="skills__text">REACT.JS</div>
+                            </div>
+                        </div>
+
+                        <div class="skills__colum">
+                            <div class="skills__item">
+                                <div class="skills__icon">
+                                    <img class="skills__icon-image" src="image/node_js_icon.png" alt="node icon">
+                                </div>
+                                <div class="skills__text">NODE.JS</div>
+                            </div>
+                        </div>
+
+                        <div class="skills__colum">
+                            <div class="skills__item">
+                                <div class="skills__icon">
+                                    <img class="skills__icon-image" src="image/figma_icon.png" alt="figma icon">
+                                </div>
+                                <div class="skills__text">FIGMA</div>
+                            </div>
+                        </div>
+
+                        <div class="skills__colum">
+                            <div class="skills__item">
+                                <div class="skills__icon">
+                                    <img class="skills__icon-image" src="image/github_icon.png" alt="github icon">
+                                </div>
+                                <div class="skills__text">GITHUB</div>
+                            </div>
+                        </div>
+
+                        <div class="skills__colum">
+                            <div class="skills__item">
+                                <div class="skills__icon">
+                                    <img class="skills__icon-image" src="image/vs code_visual studio code_logo_code_icon.png" alt="vs code icon">
+                                </div>
+                                <div class="skills__text">VS CODE</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>   
+
+            <section class="page__projectes projecte">
+                <div class="projecte__container container">
+                    <div class="projecte__header header-block" class="section-three">
+                        <h2 class="header-block__title">Мои проекты </h2>
+                        <div class="header-block__sub-title">
+                            Некоторые мои работы <br>
+                            Перечень периодически обнoвляется
+                        </div>
+                    </div>
+                    <div class="projecte__body">
+                        <div class="projectes__colum">
+                            <article class="projectes__item item-projectes">
+                                <div class="item-projectes__content">
+                                    <a href="https://katerinaborisova.github.io/choice--/" class="item-projectes__link" target="_blank">
+                                        <h4 class="item-project__titel">"Подбери свой идеальный тур"</h4>
+                                    </a>
+                                    <div class="item-projectes__text">
+                                        Если вы планируете отпуск и вам трудно определиться, <br>
+                                        то это приложение вам поможет сделать свой выбор.
+                                        Приятного отдыха!
+                                    </div>
+                                    <div class="item-projectes__icons">
+                                        <img class="icons-item" src="image/html5_icon.png" alt="icon html">
+                                        <img class="icons-item" src="image/css3_icon.png" alt="icon css">
+                                        <img class="icons-item" src="image/js_square_icon.png" alt="icon js">
+                                    </div>
+                                </div>
+                                <a href="https://katerinaborisova.github.io/choice--/" class="item-projectes__image ibg" target="_blank">
+                                    <img src="image/1.png" alt="Подбери свой идеальный тур">
+                                </a>
+                                
+                            </article>
+                        </div>
+
+                        <div class="projectes__colum">
+                            <article class="projectes__item item-projectes">
+                                <div class="item-projectes__content">
+                                    <a href="https://katerinaborisova.github.io/calculator/" target="_blank" class="item-projectes__link">
+                                        <h4 class="item-project__titel">"Поделите общий счет в кафе"</h4>
+                                    </a>
+                                    <div class="item-projectes__text">
+                                        Вы с друзьями посетили кафе и незнаете как поделить счет, <br>
+                                        Воспользуйтесь  этим калькулятором и оставьте свои чаевые.
+                                    </div>
+                                    <div class="item-projectes__icons">
+                                        <img class="icons-item" src="image/html5_icon.png" alt="html icon">
+                                        <img class="icons-item" src="image/css3_icon.png" alt="css icon">
+                                        <img class="icons-item" src="image/js_square_icon.png" alt="js icon ">
+                                    </div>
+                                </div>
+                                <a href="https://katerinaborisova.github.io/calculator/" class="item-projectes__image ibg" target="_blank">
+                                    <img src="image/2.png" alt="Поделите общий счет в кафе">
+                                </a>
+                                
+                            </article>
+                        </div>
+
+                        <div class="projectes__colum">
+                            <article class="projectes__item item-projectes">
+                                <div class="item-projectes__content">
+                                    <a href="https://yuliyalezhneva.glitch.me/" class="item-projectes__link" target="_blank">
+                                        <h4 class="item-project__titel">"Сайт профессионального визажиста"</h4>
+                                    </a>
+                                    <div class="item-projectes__text">
+                                        Порадуйте себя визитом к профессиональному визажисту, <br>
+                                        а перед этим посетите его сайт и посмотрите его работы.
+                                    </div>
+                                    <div class="item-projectes__icons">
+                                        <img class="icons-item" src="image/html5_icon.png" alt="html icon">
+                                        <img class="icons-item" src="image/css3_icon.png" alt="css icon">
+                                        <img class="icons-item" src="image/bootstrap_icon.png" alt="bootstrap icon">
+                                    </div>
+                                </div>
+                                <a href="https://yuliyalezhneva.glitch.me/" class="item-projectes__image ibg" target="_blank">
+                                    <img src="image/3.png" alt="Сайт визажиста">
+                                </a>
+                                
+                            </article>
+                        </div>
+
+                        <div class="projectes__colum">
+                            <article class="projectes__item item-projectes">
+                                <div class="item-projectes__content">
+                                    <a href="https://katerinaborisova.github.io/NewYear/" class="item-projectes__link" target="_blank">
+                                        <h4 class="item-project__titel">"Сколько дней осталось до Нового года"</h4>
+                                    </a>
+                                    <div class="item-projectes__text">
+                                        Обратный отчет времени до Нового года<br>
+                                        с музыкальным сопровождением
+                                    </div>
+                                    <div class="item-projectes__icons">
+                                        <img class="icons-item" src="image/html5_icon.png" alt="html icon">
+                                        <img class="icons-item" src="image/css3_icon.png" alt="css icon">
+                                        <img class="icons-item" src="image/js_square_icon.png" alt="js icon">
+                                    </div>
+                                </div>
+                                <a href="https://katerinaborisova.github.io/NewYear/" class="item-projectes__image ibg" target="_blank">
+                                    <img src="image/4.png" alt="Сколько дней осталось до Нового года">
+                                </a>
+                                
+                            </article>
+                        </div>
+
+                        <div class="projectes__colum">
+                            <article class="projectes__item item-projectes">
+                                <div class="item-projectes__content">
+                                    <a href="https://katerinaborisova.github.io/quiz-chemical/" class="item-projectes__link" target="_blank">
+                                        <h4 class="item-project__titel">"Викторина Познавательная химия"</h4>
+                                    </a>
+                                    <div class="item-projectes__text">
+                                    Проведите время с пользой в кругу семьи. <br>
+                                        Вспомните уроки химии и проверьте свои знания.
+                                    </div>
+                                    <div class="item-projectes__icons">
+                                        <img class="icons-item" src="image/html5_icon.png" alt="html icon">
+                                        <img class="icons-item" src="image/css3_icon.png" alt="css icon">
+                                        <img class="icons-item" src="image/js_square_icon.png" alt="js icon">
+                                    </div>
+                                </div>
+                                <a href="https://katerinaborisova.github.io/quiz-chemical/" class="item-projectes__image ibg"target="_blank">
+                                    <img src="image/6.png" alt="викторина">
+                                </a>
+                                
+                            </article>
+                        </div>
+
+                        <div class="projectes__colum">
+                            <article class="projectes__item item-projectes">
+                                <div class="item-projectes__content">
+                                    <a href="https://katerinaborisova.github.io/KaterinaBorisova-weather-world/" class="item-projectes__link" target="_blank">
+                                        <h4 class="item-project__titel">"Прогноз погоды в любой точке мира"</h4>
+                                    </a>
+                                    <div class="item-projectes__text">
+                                        Хотите узнать погоду в любой точке мира ? <br>
+                                        Тогда воспользуйтесь данным приложением.
+                                    </div>
+                                    <div class="item-projectes__icons">
+                                        <img class="icons-item" src="image/html5_icon.png" alt="html icon">
+                                        <img class="icons-item" src="image/css3_icon.png" alt="css icon">
+                                        <img class="icons-item" src="image/js_square_icon.png" alt="js icon">
+                                    </div>
+                                </div>
+                                <a href="https://katerinaborisova.github.io/KaterinaBorisova-weather-world/" class="item-projectes__image ibg" target="_blank">
+                                    <img src="image/5.png" alt="прогноз погоды">
+                                </a>                               
+                            </article>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__contact contact">
+                <div class="contact__container container">
+                    <div class="contact__header header-block" id="section-five" class="section-five">
+                        <h2 class="header-block__title">Контакты</h2>
+                        <div class="header-block__sub-title">
+                            Какие вопросы и предложения у Вас есть ко мне? <br>
+                            Свяжитесь со мной
+                        </div>
+                    </div>
+                    <div class="contact__body">
+                        <div class="contact__column">
+                            <form action="https://formspree.io/f/xvolwjqa" class="contact__form form-contact" method="POST">
+                                <div class="form-contact__row">
+                                    <div class="form-contact__column">
+                                        <div class="form-contact__input">
+                                            <div class="form-contact__label">Ваше имя</div>
+                                            <input type="text" autocomplete="off" name="form[]" data-value="" class="input " placeholder="Введите Ваше имя" required="">
+                                        </div>
+                                    </div>
+                                    <div class="form-contact__column">
+                                        <div class="form-contact__input">
+                                            <div class="form-contact__label">Ваш  e-mail</div>
+                                            <input type="text" autocomplete="off" name="form[]" data-value="" class="input " placeholder="Введите Ваш e-mail " required="">
+                                        </div>
+                                    </div>
+                                    <div class="form-contact__input">
+                                        <div class="form-contact__label">Ваше сообщение</div>
+                                        <textarea type="text" autocomplete="off" name="form[]" data-value="" class="input-mail" placeholder="Введите Ваше сообщение " required=""></textarea>
+                                    </div>
+                                </div>
+
+                            <div class="contact__form-button">
+                                <button type="submit" class="form-contact__button btn">Отправить</button>
+                            </div>
+                                
+                            </form>
+                        </div>
+                    </div>               
+                </div>            
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__social social">
+                    <a href="https://www.linkedin.com/in/katerina-borisova-661178228/" target="__blank" class="social__item">
+                        <img src="image/linkedin_icon.png" alt="linkedin icon">
+                    </a>
+                
+                    <a href="https://www.facebook.com/ekaterina.borisova.121" target="__blank" class="social__item">
+                        <img src="image/facebook_icon.png" alt="facebook icon">
+                    </a>
+                    <a href="tel:+212682767502" class="social__item">
+                        <img src="image/telegram_icon.png" target="__blank" alt="telegram icon">
+                    </a>
+                
+                    <a href="https://www.instagram.com/bo_ekaterina/" target="__blank" class="social__item">
+                        <img src="image/instagram_icon.png" alt="instagram icon">
+                    </a>
+                    <a href="mailto:katerina.borisova928@gmail.com" target="__blank" class="social__item">
+                        <img src="image/mail_icon.png" alt="mail_icon">
+                    </a>
+
+                </div>
+            </div> 
+            <div class="footer__end">© 2022 Borisova Katerina</div>
+        </footer>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/TextPlugin.min.js"></script>
+    <script src="jsPortfolio/script.js"></script>
+</body>
+</html>
